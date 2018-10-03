@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/list_row_item"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorAccent"
+    android:paddingBottom="1dp"
+    android:paddingEnd="4dp"
+    android:paddingStart="4dp"
+    android:paddingTop="1dp">
+
+    <ImageView
+        android:id="@+id/thumbnail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="114dp"
+        android:layout_toRightOf="@id/thumbnail"
+        android:layout_alignParentRight="true"
+        android:background="@color/colorLightest"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/section"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ba9b0e0e"
+            android:padding="1dp"
+            android:textAlignment="center"
+            android:layout_alignParentTop="true"
+            android:textColor="#ffffff"
+            android:textAllCaps="true"
+            android:fontFamily="@font/newscycle_bold"
+            tools:text="@string/tool_section" />
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ffffff"
+            android:paddingLeft="6dp"
+            android:paddingRight="6dp"
+            android:paddingTop="6dp"
+            android:layout_below="@+id/section"
+            android:fontFamily="@font/newscycle_bold"
+            android:textSize="18sp"
+            android:textColor="#212121"
+            tools:text="@string/tool_headline" />
+
+        <RelativeLayout
+            android:background="#ffffff"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true">
+
+            <TextView
+                android:id="@+id/author"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_toStartOf="@id/pub_date"
+                android:paddingStart="8dp"
+                android:paddingEnd="8dp"
+                android:textAlignment="viewStart"
+                android:fontFamily="@font/newscycle_regular"
+                tools:text="@string/tool_author" />
+
+            <TextView
+                android:id="@+id/pub_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:paddingEnd="6dp"
+                android:textAlignment="viewEnd"
+                android:fontFamily="@font/newscycle_regular"
+                tools:text="@string/tool_date" />
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>

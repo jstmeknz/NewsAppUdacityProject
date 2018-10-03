@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">News App</string>
+    <string name="tool_headline">Breaking News! Breaking News BREAKING breaking.</string>
+    <string name="tool_date">10/15/1987</string>
+    <string name="tool_section">World News</string>
+    <string name="network_bad_text">Check Network Connection.</string>
+    <string name="News_unavailable">News Stories not Available.\nPlease reload App to try again!</string>
+    <string name="tool_author">Author Author</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Strings related to Settings -->
+
+    <!-- Example General settings -->
+    <string name="settings">Settings</string>
+
+    <string name="edit_search_label">Search</string>
+
+    <string name="edit_text_search_key">keyword</string>
+    <string name="edit_text_search_default">pollution</string>
+
+
+    <string name="orderBy_key">order-by</string>
+    <string name="orderBy_default">newest</string>
+    <string name="orderBy_label">Order by</string>
+
+    <string name="pref_order_by_new_label">Newest</string>
+    <string name="pref_order_by_new_value">newest</string>
+
+    <string name="pref_order_by_relevant_label">Most Relevant</string>
+    <string name="pref_order_by_relevant_value">relevance</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+</resources>
